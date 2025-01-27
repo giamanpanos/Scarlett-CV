@@ -324,12 +324,12 @@
       </section>
 
       <section id="contact">
-        <form class="contact__form" onsubmit="submitForm()">
+        <form class="contact__form">
           <input type="text" id="contact_name" placeholder="Name" required>
           <input type="email" id="contact_email" placeholder="Email" required>
           <input type="text" id="contact_subject" placeholder="Subject" required>
           <textarea name="message" id="contact_message" placeholder="Message" required></textarea>
-          <input type="submit" id="contact_submit" value="Submit">
+          <input type="submit" id="contact_submit" value="Submit" onclick="submitForm()">
         </form>
       </section>
 
