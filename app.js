@@ -15,7 +15,7 @@ hamburger.addEventListener("click", () => {
 submit.addEventListener("click", (e) => {
     e.preventDefault()
     setTimeout(() => {
-    alert("Your message has been sent successfully. I will get back to you asap.")
+    alert("Your message has been sent successfully.")
     form.reset()
     }, 1000)
 })
