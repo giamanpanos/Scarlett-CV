@@ -4,8 +4,6 @@ const links = document.querySelectorAll(".header__main-nav--links li");
 
 const submit = document.querySelector("#contact_submit");
 
-console.log(submit)
-
 hamburger.addEventListener("click", () => {
     hamburgerContainer.classList.toggle("clicked");
     links.forEach((link) => {
@@ -18,4 +16,4 @@ submit.addEventListener("click", (e) => {
     setTimeout(() => {
     alert("Your message has been sent successfully. I will get back to you asap.")
     }, 1000)
-}
+})
