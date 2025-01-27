@@ -16,6 +16,6 @@ submit.addEventListener("click", (e) => {
     e.preventDefault()
     setTimeout(() => {
     alert("Your message has been sent successfully.")
-    form.reset()
+    /*form.reset()*/
     }, 1000)
 })
