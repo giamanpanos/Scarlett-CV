@@ -15,7 +15,7 @@ hamburger.addEventListener("click", () => {
     });
 });
 
-function submitForm(e) {
+submit.addEventListener("click", (e) => {
     e.preventDefault()
     setTimeout(() => {
     alert("Your message has been sent successfully. I will get back to you asap.")
