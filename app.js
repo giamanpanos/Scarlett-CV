@@ -12,10 +12,10 @@ hamburger.addEventListener("click", () => {
     });
 });
 
-submit.addEventListener("click", (e) => {
-    e.preventDefault()
-    setTimeout(() => {
-    alert("Your message has been sent successfully.")
-    /*form.reset()*/
-    }, 1000)
-})
+// submit.addEventListener("click", (e) => {
+//     e.preventDefault()
+//     setTimeout(() => {
+//     alert("Your message has been sent successfully.")
+//     /*form.reset()*/
+//     }, 1000)
+// })
