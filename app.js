@@ -13,10 +13,14 @@ hamburger.addEventListener("click", () => {
 });
 
 submit.addEventListener("click", (e) => {
-    form.checkValidity()
+    let isFormValid = form.checkValidity();
+    if(!isFormValid) {
+        form.reportValidity();
+    } else {
     e.preventDefault()
     setTimeout(() => {
     alert("Your message has been sent successfully.")
-    /*form.reset()*/
+    form.reset()
     }, 1000)
+    }
 })
